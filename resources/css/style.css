@@ -9,15 +9,52 @@ body {
     font-family: Verdana;
     font-size: 16px;
     text-align: center;
+    color: #fff;
 }
 
-.hero-banner h1 {    
-    font-size: 3.125em;
-    color: #fff;
+h1, h2 {
     margin: 0.5em 0;
 }
 
-.hero-banner a {
+h2 {
+    font-size: 2.625em;
+    font-weight: 300;
+}
+
+a {
     font-size: 1em;
-    color:aquamarine;
+    color: aquamarine;
+    /* margin-bottom: 1.25em; */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-banner h1 {
+    font-size: 3.125em;
+}
+
+.hero-banner video {
+    margin-top: 1.25em;
+}
+
+
+.travel-guide p {
+    font-size: 1.3125em;
+    color: grey;
+    margin-bottom: 1.25em;
+}
+
+footer img {
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+footer p {
+    color: grey;
+    text-align: right;
+    margin-top: 0.75em;
+    margin-right: 0.5em;
 }
