@@ -1,3 +1,5 @@
+/* Global styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -27,10 +29,14 @@ a {
     /* margin-bottom: 1.25em; */
 }
 
+/* Site structure */
+
 .wrapper {
     display: flex;
     flex-direction: column;
 }
+
+/* Hero banner styling */
 
 .hero-banner h1 {
     font-size: 3.125em;
@@ -40,12 +46,15 @@ a {
     margin-top: 1.25em;
 }
 
+/* Travel guide styling */
 
 .travel-guide p {
     font-size: 1.3125em;
     color: grey;
     margin-bottom: 1.25em;
 }
+
+/* Footer styling */
 
 footer img {
     margin-top: 1.25em;
